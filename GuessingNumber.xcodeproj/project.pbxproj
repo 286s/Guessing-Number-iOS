@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9626D9A715AC9B8600D47FA2 /* UsernameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9626D9A615AC9B8600D47FA2 /* UsernameViewController.m */; };
+		964B1999157D650700340D0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964B1998157D650700340D0E /* UIKit.framework */; };
+		964B199B157D650700340D0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964B199A157D650700340D0E /* Foundation.framework */; };
+		964B199D157D650700340D0E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964B199C157D650700340D0E /* CoreGraphics.framework */; };
+		964B19A3157D650700340D0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 964B19A1157D650700340D0E /* InfoPlist.strings */; };
+		964B19A5157D650700340D0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 964B19A4157D650700340D0E /* main.m */; };
+		964B19A9157D650700340D0E /* GuessingNumberAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 964B19A8157D650700340D0E /* GuessingNumberAppDelegate.m */; };
+		964B19AC157D650700340D0E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964B19AA157D650700340D0E /* MainStoryboard.storyboard */; };
+		964B19AF157D650700340D0E /* GuessingNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 964B19AE157D650700340D0E /* GuessingNumberViewController.m */; };
+		964FBE5615AB5371005A018C /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 964FBE5415AB5371005A018C /* CoreDataTableViewController.m */; };
+		964FBE5A15AB558B005A018C /* RecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 964FBE5915AB558B005A018C /* RecordTableViewCell.m */; };
+		964FBE5D15AB8E55005A018C /* Record.m in Sources */ = {isa = PBXBuildFile; fileRef = 964FBE5C15AB8E55005A018C /* Record.m */; };
+		967B2A30159F6D3A009040B0 /* Record.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 967B2A2E159F6D3A009040B0 /* Record.xcdatamodeld */; };
+		967B2A36159F70B9009040B0 /* Record+Manipulate.m in Sources */ = {isa = PBXBuildFile; fileRef = 967B2A35159F70B9009040B0 /* Record+Manipulate.m */; };
+		967B2A39159F7692009040B0 /* RecordsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967B2A38159F7692009040B0 /* RecordsTableViewController.m */; };
+		967B2A4D159FBE67009040B0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967B2A4C159FBE67009040B0 /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9626D9A615AC9B8600D47FA2 /* UsernameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsernameViewController.m; sourceTree = "<group>"; };
+		9626D9B115ACD9A300D47FA2 /* UsernameViewController.h */ = {isa = PBXFileReference; path = UsernameViewController.h; sourceTree = "<group>"; };
+		964B1994157D650700340D0E /* GuessingNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessingNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		964B1998157D650700340D0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		964B199A157D650700340D0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		964B199C157D650700340D0E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		964B19A0157D650700340D0E /* GuessingNumber-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuessingNumber-Info.plist"; sourceTree = "<group>"; };
+		964B19A2157D650700340D0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		964B19A4157D650700340D0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		964B19A6157D650700340D0E /* GuessingNumber-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GuessingNumber-Prefix.pch"; sourceTree = "<group>"; };
+		964B19A7157D650700340D0E /* GuessingNumberAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuessingNumberAppDelegate.h; sourceTree = "<group>"; };
+		964B19A8157D650700340D0E /* GuessingNumberAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuessingNumberAppDelegate.m; sourceTree = "<group>"; };
+		964B19AB157D650700340D0E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		964B19AD157D650700340D0E /* GuessingNumberViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuessingNumberViewController.h; sourceTree = "<group>"; };
+		964B19AE157D650700340D0E /* GuessingNumberViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuessingNumberViewController.m; sourceTree = "<group>"; };
+		964FBE5415AB5371005A018C /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		964FBE5515AB5371005A018C /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		964FBE5815AB558B005A018C /* RecordTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordTableViewCell.h; sourceTree = "<group>"; };
+		964FBE5915AB558B005A018C /* RecordTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordTableViewCell.m; sourceTree = "<group>"; };
+		964FBE5B15AB8E55005A018C /* Record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Record.h; sourceTree = "<group>"; };
+		964FBE5C15AB8E55005A018C /* Record.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Record.m; sourceTree = "<group>"; };
+		967B2A2F159F6D3A009040B0 /* Record.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Record.xcdatamodel; sourceTree = "<group>"; };
+		967B2A34159F70B9009040B0 /* Record+Manipulate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Record+Manipulate.h"; sourceTree = "<group>"; };
+		967B2A35159F70B9009040B0 /* Record+Manipulate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Record+Manipulate.m"; sourceTree = "<group>"; };
+		967B2A37159F7692009040B0 /* RecordsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordsTableViewController.h; sourceTree = "<group>"; };
+		967B2A38159F7692009040B0 /* RecordsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordsTableViewController.m; sourceTree = "<group>"; };
+		967B2A4C159FBE67009040B0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		964B1991157D650700340D0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967B2A4D159FBE67009040B0 /* CoreData.framework in Frameworks */,
+				964B1999157D650700340D0E /* UIKit.framework in Frameworks */,
+				964B199B157D650700340D0E /* Foundation.framework in Frameworks */,
+				964B199D157D650700340D0E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		964B1989157D650700340D0E = {
+			isa = PBXGroup;
+			children = (
+				964B199E157D650700340D0E /* GuessingNumber */,
+				964B1997157D650700340D0E /* Frameworks */,
+				964B1995157D650700340D0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		964B1995157D650700340D0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				964B1994157D650700340D0E /* GuessingNumber.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		964B1997157D650700340D0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				967B2A4C159FBE67009040B0 /* CoreData.framework */,
+				964B1998157D650700340D0E /* UIKit.framework */,
+				964B199A157D650700340D0E /* Foundation.framework */,
+				964B199C157D650700340D0E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		964B199E157D650700340D0E /* GuessingNumber */ = {
+			isa = PBXGroup;
+			children = (
+				967B2A37159F7692009040B0 /* RecordsTableViewController.h */,
+				967B2A38159F7692009040B0 /* RecordsTableViewController.m */,
+				964B19AA157D650700340D0E /* MainStoryboard.storyboard */,
+				9626D9B115ACD9A300D47FA2 /* UsernameViewController.h */,
+				9626D9A615AC9B8600D47FA2 /* UsernameViewController.m */,
+				964B19AD157D650700340D0E /* GuessingNumberViewController.h */,
+				964B19AE157D650700340D0E /* GuessingNumberViewController.m */,
+				964FBE5815AB558B005A018C /* RecordTableViewCell.h */,
+				964FBE5915AB558B005A018C /* RecordTableViewCell.m */,
+				967B2A43159FA5A1009040B0 /* Core Data */,
+				964B199F157D650700340D0E /* Supporting Files */,
+			);
+			path = GuessingNumber;
+			sourceTree = "<group>";
+		};
+		964B199F157D650700340D0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				964B19A7157D650700340D0E /* GuessingNumberAppDelegate.h */,
+				964B19A8157D650700340D0E /* GuessingNumberAppDelegate.m */,
+				964B19A0157D650700340D0E /* GuessingNumber-Info.plist */,
+				964B19A1157D650700340D0E /* InfoPlist.strings */,
+				964B19A4157D650700340D0E /* main.m */,
+				964B19A6157D650700340D0E /* GuessingNumber-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		967B2A43159FA5A1009040B0 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				964FBE5415AB5371005A018C /* CoreDataTableViewController.m */,
+				964FBE5515AB5371005A018C /* CoreDataTableViewController.h */,
+				967B2A34159F70B9009040B0 /* Record+Manipulate.h */,
+				967B2A35159F70B9009040B0 /* Record+Manipulate.m */,
+				967B2A2E159F6D3A009040B0 /* Record.xcdatamodeld */,
+				964FBE5B15AB8E55005A018C /* Record.h */,
+				964FBE5C15AB8E55005A018C /* Record.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		964B1993157D650700340D0E /* GuessingNumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 964B19B2157D650700340D0E /* Build configuration list for PBXNativeTarget "GuessingNumber" */;
+			buildPhases = (
+				964B1990157D650700340D0E /* Sources */,
+				964B1991157D650700340D0E /* Frameworks */,
+				964B1992157D650700340D0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuessingNumber;
+			productName = GuessingNumber;
+			productReference = 964B1994157D650700340D0E /* GuessingNumber.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		964B198B157D650700340D0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GuessingNumber;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Perfecular Inc.";
+			};
+			buildConfigurationList = 964B198E157D650700340D0E /* Build configuration list for PBXProject "GuessingNumber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 964B1989157D650700340D0E;
+			productRefGroup = 964B1995157D650700340D0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				964B1993157D650700340D0E /* GuessingNumber */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		964B1992157D650700340D0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964B19A3157D650700340D0E /* InfoPlist.strings in Resources */,
+				964B19AC157D650700340D0E /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		964B1990157D650700340D0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964B19A5157D650700340D0E /* main.m in Sources */,
+				964B19A9157D650700340D0E /* GuessingNumberAppDelegate.m in Sources */,
+				964B19AF157D650700340D0E /* GuessingNumberViewController.m in Sources */,
+				967B2A30159F6D3A009040B0 /* Record.xcdatamodeld in Sources */,
+				967B2A36159F70B9009040B0 /* Record+Manipulate.m in Sources */,
+				967B2A39159F7692009040B0 /* RecordsTableViewController.m in Sources */,
+				964FBE5615AB5371005A018C /* CoreDataTableViewController.m in Sources */,
+				964FBE5A15AB558B005A018C /* RecordTableViewCell.m in Sources */,
+				964FBE5D15AB8E55005A018C /* Record.m in Sources */,
+				9626D9A715AC9B8600D47FA2 /* UsernameViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		964B19A1157D650700340D0E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				964B19A2157D650700340D0E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		964B19AA157D650700340D0E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				964B19AB157D650700340D0E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		964B19B0157D650700340D0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		964B19B1157D650700340D0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		964B19B3157D650700340D0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuessingNumber/GuessingNumber-Prefix.pch";
+				INFOPLIST_FILE = "GuessingNumber/GuessingNumber-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		964B19B4157D650700340D0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuessingNumber/GuessingNumber-Prefix.pch";
+				INFOPLIST_FILE = "GuessingNumber/GuessingNumber-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		964B198E157D650700340D0E /* Build configuration list for PBXProject "GuessingNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964B19B0157D650700340D0E /* Debug */,
+				964B19B1157D650700340D0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		964B19B2157D650700340D0E /* Build configuration list for PBXNativeTarget "GuessingNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964B19B3157D650700340D0E /* Debug */,
+				964B19B4157D650700340D0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		967B2A2E159F6D3A009040B0 /* Record.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				967B2A2F159F6D3A009040B0 /* Record.xcdatamodel */,
+			);
+			currentVersion = 967B2A2F159F6D3A009040B0 /* Record.xcdatamodel */;
+			path = Record.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 964B198B157D650700340D0E /* Project object */;
+}
